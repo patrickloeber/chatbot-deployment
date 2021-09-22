@@ -9,9 +9,9 @@ This gives 2 deployment options:
 ## Initial Setup:
 This repo currently contains the starter files.
 
-Create a virtual environment
+Clone repo and create a virtual environment
 ```
-$ mkdir chatbot-deployment
+$ git clone https://github.com/python-engineer/chatbot-deployment.git
 $ cd chatbot-deployment
 $ python3 -m venv venv
 $ . venv/bin/activate
