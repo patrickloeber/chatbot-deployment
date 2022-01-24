@@ -7,7 +7,7 @@ from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 
 # Prompt three most commonly asked FAQs
-samples = "Examples of phrases you can ask are:<br>1. What does DiGiCOR do?<br><br>2. What does DiGiCOR sell?<br><br>3. I want to speak to a live agent.<br>"
+samples = "Examples of phrases you can ask are:<br>  <ol><li>What does DiGiCOR do?</li> <li>What does DiGiCOR sell?</li> <li>I want to speak to a live agent.</li> </ol> <br>"
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -28,7 +28,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "Nic"
+bot_name = "DiGiCOR Chatbot"
 
 def get_response(msg):
     sentence = tokenize(msg)

@@ -23,7 +23,7 @@
         "Hello, thanks for visiting.",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?",
-        "Welcome to DiGiCOR. How may I be of assisstance?"
+        "Welcome to DiGiCOR. How may I be of assistance?"
       ]
     },
     {
@@ -40,7 +40,7 @@
       "tag": "about_digicor",
       "patterns": ["tell me about DiGiCOR", "What does DiGiCOR do", "about digicor"],
       "responses": [
-        "DiGiCOR was founded in 1997 with the goal of becoming a major player in the Australian and New Zealand niche ICT Infrastructure market. <br>  Our focus is in providing server, data storage, workstation, networking, edge computing, and IoT solutions. From designing IT infrastructure to deployment of the solution, we cover the whole journey for our customers. <br> See our range of features and partners in our about us. <br> <a href = 'https://digicor.com.au/about-us'> About Us </a>"
+        "DiGiCOR was founded in 1997 with the goal of becoming a major player in the Australian and New Zealand niche ICT Infrastructure market. <br>  Our focus is in providing server, data storage, workstation, networking, edge computing, and IoT solutions. From designing IT infrastructure to deployment of the solution, we cover the whole journey for our customers. <br> See our range of features and partners in our <a href = 'https://digicor.com.au/about-us'> About Us </a>. "
         
       ]
     },
@@ -48,13 +48,13 @@
       "tag": "digicor_applicator",
       "patterns": ["What does DiGiCOR sell?", "does DiGiCOR have server", "What hardware does DiGiCOR have", "Do you have", "Does DiGiCOR have stock"],
       "responses": [
-        "DiGiCOR offers a range of solutions for organisations of all sizes, from local and affordable services to cloud computing solutions, DiGiCOR can provide you with solutions to your IT challenges <br> Visit DiGiCOR Applicator to view differerent configerations <br><a href = 'https://digicor.com.au/advanced-search'> DiGiCOR Applicator </a>"
+        "DiGiCOR offers a range of solutions for organisations of all sizes, from local and affordable services to cloud computing solutions, DiGiCOR can provide you with solutions to your IT challenges <br> Visit <a href = 'https://digicor.com.au/advanced-search'> DiGiCOR Applicator </a> to view different configurations <br>"
         
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye", "thanks for you help", "thats all for today"],
+      "patterns": ["Bye", "See you later", "Goodbye", "thanks for you help", "that's all for today"],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
@@ -63,7 +63,7 @@
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "thank you for your assistance"],
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!", "thank you for your assistance"],
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
