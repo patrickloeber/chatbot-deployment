@@ -9,6 +9,7 @@ from torch.utils.data import Dataset, DataLoader
 from nltk_utils import bag_of_words, tokenize, stem
 from model import NeuralNet
 
+# Make sure you run this file as many times as it takes to get a low value for loss ~0.0002, so that gibberish words will not be misinterpreted
 with open('intents.json', 'r') as f:
     intents = json.load(f)
 

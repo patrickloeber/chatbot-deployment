@@ -8,18 +8,53 @@
         "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Howdy",
+        "Greetings",
+        "I need help",
+        "Can you help",
+        "Good day",
+        "hi there",
+        "good morning",
+        "good evening",
+        "good afternoon"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
+        "Hey, how can I be of assistance?",
+        "Hello, thanks for visiting.",
         "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hi there, how can I help?",
+        "Welcome to DiGiCOR. How may I be of assisstance?"
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": ["What are you?", "Who are you?", "What is your name?"],
+      "responses": [
+        "I am a chatbot. If you wish to speak to a live agent, feel free to ask for one",
+        "I am DiGiCOR's chatbot. I can help you with simple queries",
+        "I am DiGiCOR's chatbot. If you wish to speak to a live agent, feel free to ask for one",
+        "I am a chatbot. I can help you with simple queries"
+      ]
+    },
+    {
+      "tag": "about_digicor",
+      "patterns": ["tell me about DiGiCOR", "What does DiGiCOR do", "about digicor"],
+      "responses": [
+        "DiGiCOR was founded in 1997 with the goal of becoming a major player in the Australian and New Zealand niche ICT Infrastructure market. <br>  Our focus is in providing server, data storage, workstation, networking, edge computing, and IoT solutions. From designing IT infrastructure to deployment of the solution, we cover the whole journey for our customers. <br> See our range of features and partners in our about us. <br> <a href = 'https://digicor.com.au/about-us'> About Us </a>"
+        
+      ]
+    },
+    {
+      "tag": "digicor_applicator",
+      "patterns": ["What does DiGiCOR sell?", "does DiGiCOR have server", "What hardware does DiGiCOR have", "Do you have", "Does DiGiCOR have stock"],
+      "responses": [
+        "DiGiCOR offers a range of solutions for organisations of all sizes, from local and affordable services to cloud computing solutions, DiGiCOR can provide you with solutions to your IT challenges <br> Visit DiGiCOR Applicator to view differerent configerations <br><a href = 'https://digicor.com.au/advanced-search'> DiGiCOR Applicator </a>"
+        
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": ["Bye", "See you later", "Goodbye", "thanks for you help", "thats all for today"],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
@@ -28,7 +63,7 @@
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "thank you for your assistance"],
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
@@ -36,24 +71,29 @@
       "patterns": [
         "Which items do you have?",
         "What kinds of items are there?",
+        "What does?",
+        "What do you offer?",
+        "What can you ?",
         "What do you sell?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "We provide a wide range of industry-leading ICT infrastructure and software solutions, to help meet the demands of different industries and enterprises",
+        "We provide various tech-consulting services and ICT infrastructure to businesses in need of tech support "
       ]
     },
     {
-      "tag": "payments",
+      "tag": "contact",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "How can I contact you",
+        "how do I contact DiGiCOR",
+        "Do you have email",
+        "What is DiGiCOR email",
+        "what is DiGiCOR contact details",
+        "how do I contact the melbourne store",
+        "how can I call the NSW branch"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "You can contact our sales team at <br> 1-300-192-308 <br> our support at <br> 788-886 <br> Individual branches contact details can be found at <a href = 'https://digicor.com.au/contact-us'> Contact Us </a>. <br> Alternatively, you can connect with an agent through this chat."
       ]
     },
     {
@@ -76,8 +116,9 @@
         "Do you know a joke?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "Why did the hipster burn his mouth? <br> He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? <br> Bison.",
+        "<a href = 'https://google.com'> Google </a>"
       ]
     }
   ]

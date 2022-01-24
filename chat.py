@@ -6,6 +6,9 @@ import torch
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 
+# Prompt three most commonly asked FAQs
+samples = "Examples of phrases you can ask are:<br>1. What does DiGiCOR do?<br><br>2. What does DiGiCOR sell?<br><br>3. I want to speak to a live agent.<br>"
+
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 with open('intents.json', 'r') as json_data:
@@ -25,7 +28,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "Sam"
+bot_name = "Nic"
 
 def get_response(msg):
     sentence = tokenize(msg)
@@ -45,7 +48,7 @@ def get_response(msg):
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
     
-    return "I do not understand..."
+    return f"I'm sorry, but I cannot understand your query. {samples} "
 
 
 if __name__ == "__main__":
