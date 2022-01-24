@@ -13,10 +13,10 @@
         "I need help",
         "Can you help",
         "Good day",
-        "hi there",
-        "good morning",
-        "good evening",
-        "good afternoon"
+        "Hi there",
+        "Good morning",
+        "Good evening",
+        "Good afternoon"
       ],
       "responses": [
         "Hey, how can I be of assistance?",
@@ -30,9 +30,9 @@
       "tag": "identity",
       "patterns": ["What are you?", "Who are you?", "What is your name?"],
       "responses": [
-        "I am a chatbot. If you wish to speak to a live agent, feel free to ask for one",
+        "I am a chatbot. If you wish to speak to a live agent, please say 'Live agent'",
         "I am DiGiCOR's chatbot. I can help you with simple queries",
-        "I am DiGiCOR's chatbot. If you wish to speak to a live agent, feel free to ask for one",
+        "I am DiGiCOR's chatbot. If you wish to speak to a live agent, please say 'Live agent'",
         "I am a chatbot. I can help you with simple queries"
       ]
     },

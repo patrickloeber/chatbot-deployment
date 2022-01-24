@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Daryl\Documents\GitHub\chatbot-deployment\venv"
+VIRTUAL_ENV="C:\Users\Daryl\Downloads\chatbot-deployment\chatbot-deployment\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

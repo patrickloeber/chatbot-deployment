@@ -4,7 +4,6 @@ from chat import get_response
 # from flask_limiter import Limiter
 # from flask_limiter.util import get_remote_address
 
-
 app = Flask(__name__)
 # CORS(app)
 
