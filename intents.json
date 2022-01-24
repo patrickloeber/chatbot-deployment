@@ -97,6 +97,28 @@
       ]
     },
     {
+      "tag": "vmware_FAQ",
+      "patterns": [
+        "VMware Software",
+        "What is VMware",
+        "how does VMware work?",
+        "What are VMware HCI Kits?",
+        "What are the benefits of VMware?",
+        "Differences between Virtualization and Cloud Computing?",
+        "What is the difference between VMWare and VirtualBox?",
+        "What is a VMware Workstation?",
+        "VMWare Consultation",
+        "VMware vSAN Solutions",
+        "VMWare vSPHERE Solutions",
+        "tell me about vmware",
+        "vmware"
+      ],
+      "responses": [
+        "You can find out more about our partner VMWare, and get a free VMWare Consultation at our dedicated VMWare page <a href = 'https://digicor.com.au/partner/vmware'> VMWare </a>. <br> Alternatively, you can connect with an agent through this chat."
+      ]
+    },
+
+    {
       "tag": "delivery",
       "patterns": [
         "How long does delivery take?",
