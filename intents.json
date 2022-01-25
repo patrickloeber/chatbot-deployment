@@ -54,7 +54,7 @@
     },
 
     {
-      "tag": "digicor_applicator_help",
+      "tag": "digicor_configurator_help",
       "patterns": ["How do I use DiGiCOR's configurator?", "How to use DiGiCOR configurator", " Global Search", "learn how to use DiGiCOR's configurator"],
       "responses": [
         "This might help you in using the DiGiiCOR's configurator <br> Visit <a href = 'https://digicor.com.au/faq/question/18/How-do-I-use-DiGiCOR%E2%80%99s-configurator?'> DiGiCOR Configurator help </a>  <br> Alternatively, reach out to one of our live agents, and we would be  happy to help"
@@ -99,7 +99,10 @@
         "What is DiGiCOR email",
         "what is DiGiCOR contact details",
         "how do I contact the melbourne store",
-        "how can I call the NSW branch"
+        "how can I call the NSW branch",
+        "How can I contact your technical support",
+        "contact technical support",
+        "tech support"
       ],
       "responses": [
         "You can contact our sales team at <br> 1-300-192-308 <br> our support at <br> 788-886 <br> Individual branches contact details can be found at <a href = 'https://digicor.com.au/contact-us'> Contact Us </a>. <br> Alternatively, you can connect with an agent through this chat."
@@ -163,7 +166,8 @@
         "DCB",
         "Intel Servers",
         "Intel Hardware",
-        "Intel device"
+        "Intel device",
+        "Intel"
       ],
       "responses": [
         "You can find out more about our partner Intel at our dedicated Intel page <a href = 'https://digicor.com.au/partner/intel'> Intel </a>. <br> Alternatively, you can connect with an agent through this chat."
@@ -185,7 +189,8 @@
         "How do I configure a Supermicro server? ",
         " Who uses Supermicro servers? ",
         " Where are Supermicro servers manufactured? ",
-        "solutions with Supermicro"
+        "solutions with Supermicro",
+        "supermicro"
       ],
       "responses": [
         "You can find out more about our partner Supermicro at our dedicated Supermicro page <a href = 'https://digicor.com.au/partner/supermicro'> Supermicro </a>. <br> Alternatively, you can connect with an agent through this chat."
@@ -224,7 +229,9 @@
         "Can I modify my order",
         "order modification",
         "change order",
-        "ammend order"
+        "ammend order",
+        "purchase",
+        "buy"
 
       ],
       "responses": [
@@ -247,7 +254,10 @@
         "Do you ship with  Courier Please?",
         "Do you ship with Toll?",
         "Do you ship with FedEx?",
-        "Do you ship local delivery companies?"
+        "Do you ship local delivery companies?",
+        "delivery",
+        "when will I get my hardware",
+        "when will my server arrive"
 
       ],
       "responses": [
@@ -265,7 +275,24 @@
         "out of warranty",
         "my device is broken",
         "how can I fix my device",
-        "can DiGiCOR fix my hardware"
+        "can DiGiCOR fix my hardware",
+        "How Should I Contact The DiGiCOR RMA Department?",
+        "My System Is Out Of Warranty, What Repair Options Do You Have?",
+        "How Long Will The RMA Process Take?",
+        "Where Can I Find The Warranty Sticker On My System?",
+        "Where Do I Return My System? ",
+        "replace hardware",
+        "How Do I Order Any Available Parts For My System?",
+        "I Need An Urgent Replacement For My System, What Options Are Available? ",
+        "I need a replacement server",
+        "RM number",
+        "WM number",
+        "RB number",
+        "WB number",
+        "RS number",
+        "WS number",
+        "RP number",
+        "WP number"
       ],
       "responses": [
         "It looks like your query is related to RMA support. The following link might help answer your query <a href = 'https://digicor.com.au/rma-support'> RMA Support FAQ</a>. <br> Alternatively, you can connect with an agent through this chat."
@@ -275,10 +302,10 @@
     {
       "tag": "reply_speed_FAQ",
       "patterns": [
-        "When will I hear back from you"
-        "when will you call me back"
-        "When will you reply"
-        "How long does DiGiCOR take to reply? "
+        "When will I hear back from you",
+        "when will you call me back",
+        "When will you reply",
+        "How long does DiGiCOR take to reply? ",
         "When will DiGiCOR respond to my query"
       ],
       "responses": [
