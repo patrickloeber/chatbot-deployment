@@ -27,11 +27,11 @@ class Chatbox {
 
     toggleState(chatbox) {
         this.state = !this.state;
-
         // show or hides the box
         if(this.state) {
             chatbox.classList.add('chatbox--active')
-
+            this.messages.push({ name: "Nic", message: 'Hey there!' });
+            this.updateChatText(chatbox)
         } else {
             chatbox.classList.remove('chatbox--active')
         }
@@ -90,3 +90,10 @@ class Chatbox {
 
 const chatbox = new Chatbox();
 chatbox.display();
+
+// let promise = new Promise(chatbox.display(resolve, reject) {
+//     // the function is executed automatically when the promise is constructed
+  
+//     // after 1 second signal that the job is done with the result "done"
+//     setTimeout(() => resolve("Done"), 1000);
+//   });
