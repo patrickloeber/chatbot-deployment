@@ -38,7 +38,7 @@
     },
     {
       "tag": "about_digicor",
-      "patterns": ["tell me about DiGiCOR", "What does DiGiCOR do", "about digicor"],
+      "patterns": ["tell me about DiGiCOR", "What is DiGiCOR do", "about digicor"],
       "responses": [
         "DiGiCOR was founded in 1997 with the goal of becoming a major player in the Australian and New Zealand niche ICT Infrastructure market. <br>  Our focus is in providing server, data storage, workstation, networking, edge computing, and IoT solutions. From designing IT infrastructure to deployment of the solution, we cover the whole journey for our customers. <br> See our range of features and partners in our <a href = 'https://digicor.com.au/about-us'> About Us </a>. "
         

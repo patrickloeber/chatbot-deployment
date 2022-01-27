@@ -23,6 +23,13 @@ def predict():
     message = {"answer": response}
     return jsonify(message)
 
+@app.post("/welcome")
+def welcome():
+    response = "Welcome to DiGiCOR. "
+    message = {"answer": response}
+    return jsonify(message)
+
+
 if __name__ == "__main__":
     app.run(debug = True)
     # from waitress import serve

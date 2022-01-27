@@ -31,6 +31,7 @@ class Chatbox {
         // show or hides the box
         if(this.state) {
             chatbox.classList.add('chatbox--active')
+
         } else {
             chatbox.classList.remove('chatbox--active')
         }

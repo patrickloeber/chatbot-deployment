@@ -7,7 +7,7 @@ from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 
 # Prompt three most commonly asked FAQs
-samples = "Examples of phrases you can ask are:<br>  <ol><li>What does DiGiCOR do?</li> <li>What does DiGiCOR sell?</li> <li>I want to speak to a live agent.</li> </ol> <br>"
+samples = "Welcome to DiGiCOR. I am DiGiCOR Chatbot, and I can help answer your simple queries. <br>  1. If you wish to compare our systems model side by side filtering to your specifications, visit DiGiCOR Applicator. <br> 2. If you wish to obtain pricing, simply ask to speak to a live agent"
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
