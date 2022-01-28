@@ -30,7 +30,7 @@ class Chatbox {
         // show or hides the box
         if(this.state) {
             chatbox.classList.add('chatbox--active')
-            this.messages.push({ name: "Nic", message: 'Hey there!' });
+            this.messages.push({ name: "Bot", message: "Welcome to DiGiCOR. I am DiGiCOR Chatbot, and I can help answer your simple queries. <br>  1. If you wish to compare our systems model side by side filtering to your specifications, visit <a href = 'https://digicor.com.au/advanced-search'> DiGiCOR Applicator </a> . <br> 2. If you wish to obtain pricing, simply ask to speak to a live agent" });
             this.updateChatText(chatbox)
         } else {
             chatbox.classList.remove('chatbox--active')
@@ -57,7 +57,7 @@ class Chatbox {
           })
           .then(r => r.json())
           .then(r => {
-            let msg2 = { name: "Nic", message: r.answer };
+            let msg2 = { name: "Bot", message: r.answer };
             this.messages.push(msg2);
             this.updateChatText(chatbox)
             textField.value = ''
@@ -72,7 +72,7 @@ class Chatbox {
     updateChatText(chatbox) {
         var html = '';
         this.messages.slice().reverse().forEach(function(item, index) {
-            if (item.name === "Nic")
+            if (item.name === "Bot")
             {
                 html += '<div class="messages__item messages__item--visitor">' + item.message + '</div>'
             }

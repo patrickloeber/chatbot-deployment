@@ -18,14 +18,9 @@ def index_get():
 def predict():
     text = request.get_json().get("message")
     if len(text) > 100:
-        text = "hello" 
+        message = {"answer": "I'm sorry, your query has too many characters for me to process. If you would like to speak to a live agent, say 'I would like to speak to a live agent'"}
+        return jsonify(message)
     response = get_response(text)
-    message = {"answer": response}
-    return jsonify(message)
-
-@app.post("/welcome")
-def welcome():
-    response = "Welcome to DiGiCOR. "
     message = {"answer": response}
     return jsonify(message)
 
