@@ -54,7 +54,7 @@
     {
       "tag": "goodbye",
       "comment": "Thanks and goodbye are the same in the context of a bot that response to queries",
-      "patterns": ["Bye", "See you later", "Goodbye", "thanks for you help", "that's all for today","Thanks", "Thank you", "That's helpful", "Thanks a lot!", "thank you for your assistance"],
+      "patterns": ["Bye", "See you later", "Goodbye", "thanks for you help", "that's all for today","Thanks", "Thank you", "That's helpful", "Thanks a lot!", "thank you for your assistance", "Thank you so much for the information", "have a nice day" ],
       "responses": [
         "Before you go, would you kindly fill out this survey?"
       ]
@@ -81,7 +81,12 @@
         "Hello, Do you also host servers?",
         "Hey do you service epyc hardware",
         "Hi, do you sell ex-datacenter or refurbished servers?",
-        "you sell server"
+        "you sell server",
+        "I'm looking for some ICT solutions",
+        "Do you perform hardware integration services?",
+        "May I know if you are a server maker company?",
+        "Do you sell server hardware's, like AMD CPU, Graphic cards.",
+        "what are the solutions do you provide for backup and recovery"
 
       ],
       "responses": [
@@ -92,7 +97,7 @@
 
     {
       "tag": "digicor_configurator_help",
-      "patterns": ["How do I use DiGiCOR's configurator?", "How to use DiGiCOR configurator", " Global Search", "learn how to use DiGiCOR's configurator"],
+      "patterns": ["How do I use DiGiCOR's configurator?", "How to use DiGiCOR configurator", " Global Search", "learn how to use DiGiCOR's configurator", "online configurator"],
       "responses": [
         "This might help you in using the DiGiiCOR's configurator <br> Visit <a href = 'https://digicor.com.au/faq/question/18/How-do-I-use-DiGiCOR%E2%80%99s-configurator?'> DiGiCOR Configurator help </a>  <br> Alternatively, reach out to one of our live agents, and we would be  happy to help"
         
@@ -110,7 +115,14 @@
         "how can I call the NSW branch",
         "How can I contact your technical support",
         "contact technical support",
-        "tech support"
+        "tech support",
+        "Is there any contact details",
+        "can i get muhamad's digcor email address please",
+        "I dont have an RMA, I need tech support",
+        "can you tell me the contact point ?",
+        "Hi, what is the best contact email address for support?",
+        "Could you please provide me an email address were I can send information from my company",
+        "Where are you guys located ?"
       ],
       "responses": [
         "You can contact our sales team at <br> 1-300-192-308 <br> our support at <br> 788-886 <br> Individual branches contact details can be found at <a href = 'https://digicor.com.au/contact-us'> Contact Us </a>. <br> Alternatively, you can connect with an agent through this chat."
