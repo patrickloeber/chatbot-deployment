@@ -13,6 +13,8 @@ class Chatbox {
     display() {
         const {openButton, chatBox, sendButton} = this.args;
 
+        this.prompt(chatBox)
+
         openButton.addEventListener('click', () => this.toggleState(chatBox))
 
         sendButton.addEventListener('click', () => this.onSendButton(chatBox))
@@ -25,13 +27,16 @@ class Chatbox {
         })
     }
 
+    prompt(chatbox) {
+        this.messages.push({ name: "Bot", message: "Welcome to DiGiCOR. I am DiGiCOR Chatbot, and I can help answer your simple queries. <br>  1. If you wish to compare our systems model side by side filtering to your specifications, visit <a href = 'https://digicor.com.au/advanced-search'> DiGiCOR Applicator</a> . <br> 2. If you wish to obtain pricing, say 'live agent' to speak to our staff." });
+        this.updateChatText(chatbox)
+    }
+
     toggleState(chatbox) {
         this.state = !this.state;
         // show or hides the box
         if(this.state) {
             chatbox.classList.add('chatbox--active')
-            this.messages.push({ name: "Bot", message: "Welcome to DiGiCOR. I am DiGiCOR Chatbot, and I can help answer your simple queries. <br>  1. If you wish to compare our systems model side by side filtering to your specifications, visit <a href = 'https://digicor.com.au/advanced-search'> DiGiCOR Applicator </a> . <br> 2. If you wish to obtain pricing, simply ask to speak to a live agent" });
-            this.updateChatText(chatbox)
         } else {
             chatbox.classList.remove('chatbox--active')
         }
