@@ -1,0 +1,10 @@
+$ git clone https://github.com/python-engineer/chatbot-deployment.git
+$ cd chatbot-deployment
+$ python3 -m venv venv
+$ venv\Scripts\activate
+$ conda create -n py39 python=3.9
+$ conda activate py39
+$ pip3.9 install package
+$ python3
+$ python3 train.py
+$ python3 chat.py
