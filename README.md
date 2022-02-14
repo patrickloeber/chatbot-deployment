@@ -33,8 +33,12 @@ Conclusion:
             Live Agent Handover, Dynamic Link Generation and FAQ training can all be handled by IBM Watson Assistant (Provides entity recognition and key-phrase extraction).
             Watson Discovery (optional extension) is a powerful search engine that performs web scraping for the site to yield potential relevant responses to unclear user input.
             
-Guidelines: Develop your roadmap as required. 
+Guidelines: 
+
+            Develop your roadmap as required. 
             Training and Testing should take 2- 3 weeks.
             
-Assistance: IBM Support - $250/month
+Assistance: 
+
+            IBM Support - $250/month
             OutThought Consultant - $1800/day
