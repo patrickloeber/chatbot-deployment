@@ -20,10 +20,10 @@ Various approaches to DiGiCOR chatbot prototypes, ranked from best (1) to worst 
 1. IBM Watson Assistant and Discovery
 2. Amazon Lex
 3. Wit.ai with Messenger
-4. Python Libraries (NLTK/ Spacy)
-5. Alterra.ai with Messenger
-6. DialogFlow with Google AutoML
-7. Microsoft Azure Cognitive Services for Language
+4. Alterra.ai with Messenger
+5. DialogFlow with Google AutoML
+6. Microsoft Azure Cognitive Services for Language
+7. Python Libraries (NLTK/ Spacy)
 
 Conclusion: 
 
