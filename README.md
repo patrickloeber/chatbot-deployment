@@ -1,6 +1,7 @@
 # Chatbot Training and Deployment
 
-Objective: We are planning to deploy a new chatbot for our FAQ Page. 
+Objective: 
+           We are planning to deploy a new chatbot for our FAQ Page. 
            The chatbot should be able to identify certain key phrasings from user input, 
            such as the make and models of a specific product on our site, and often, 
            multiple products names will appear in a single input. 
@@ -23,7 +24,8 @@ Various approaches to DiGiCOR chatbot prototypes, ranked from best (1) to worst 
 6. DialogFlow with Google AutoML
 7. Microsoft Azure Cognitive Services for Language
 
-Conclusion: Based on assessments of key features/functionality, IBM Watson Assistant (Plus) is the chosen approach as approved by Roham, Richard and Cathy.
+Conclusion: 
+            Based on assessments of key features/functionality, IBM Watson Assistant (Plus) is the chosen approach as approved by Roham, Richard and Cathy.
             Begin by setting up the IBM Cloud Account (requires a credit/debit card, ask Cathy/Roham for it), there should be no immediate charge. 
             Start training the chatbot intents and utterances using IBM Watson Assistant Lite. Request for approval for Plus Subscription when required.
             Live Agent Handover, Dynamic Link Generation and FAQ training can all be handled by IBM Watson Assistant (Provides entity recognition and key-phrase extraction).
