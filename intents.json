@@ -122,7 +122,9 @@
         "can you tell me the contact point ?",
         "Hi, what is the best contact email address for support?",
         "Could you please provide me an email address were I can send information from my company",
-        "Where are you guys located ?"
+        "Where are you guys located ?",
+        "I'm looking to contact someone in Melbourne ",
+        "Hi there, I am wondering if I could get information about"
       ],
       "responses": [
         "You can contact our sales team at <br> 1-300-192-308 <br> our support at <br> 788-886 <br> Individual branches contact details can be found at <a href = 'https://digicor.com.au/contact-us'> Contact Us </a>. <br> Alternatively, you can connect with an agent through this chat."
@@ -143,7 +145,11 @@
         "VMware vSAN Solutions",
         "VMWare vSPHERE Solutions",
         "tell me about vmware",
-        "vmware"
+        "vmware",
+        "The ASUS-ESC4000A-E10 - does it support GPU carving in BIOS with VMware vSphere ?",
+        "I need something VMware certified - do you guys have anything like that?",
+        "is that server supports VMware",
+        "can u pls confirm VMware support for this "
       ],
       "responses": [
         "You can find out more about our partner VMWare, and get a free VMWare Consultation at our dedicated VMWare page <a href = 'https://digicor.com.au/partner/vmware'> VMWare </a>. <br> Alternatively, you can connect with an agent through this chat."
@@ -188,7 +194,8 @@
         "Intel Servers",
         "Intel Hardware",
         "Intel device",
-        "Intel"
+        "Intel",
+        "Are you able to do the Intel E-22xx series processors?"
       ],
       "responses": [
         "You can find out more about our partner Intel at our dedicated Intel page <a href = 'https://digicor.com.au/partner/intel'> Intel </a>. <br> Alternatively, you can connect with an agent through this chat."
@@ -211,7 +218,15 @@
         " Who uses Supermicro servers? ",
         " Where are Supermicro servers manufactured? ",
         "solutions with Supermicro",
-        "supermicro"
+        "supermicro",
+        "I understand you sell semimicro servers - what are the prices and specs in australia",
+        "Hi, do you guys sell supermicro products?",
+        "Am I able to find the supermicro products on your website?",
+        "We heard that you are an authorised distributor of Supermicro's in Australia. ",
+        "My team in Australia is looking for Super micro rack rails",
+        "Are you a supermicro reseller ?",
+        "Digicor sells supermicro motherboards?"
+
       ],
       "responses": [
         "You can find out more about our partner Supermicro at our dedicated Supermicro page <a href = 'https://digicor.com.au/partner/supermicro'> Supermicro </a>. <br> Alternatively, you can connect with an agent through this chat."
@@ -228,7 +243,14 @@
         "How do I create an account on the DiGiCOR website? ",
         "Creating account on your website",
         "Register New Account",
-        "credit terms"
+        "credit terms",
+        "we are looking for Wholesale account options",
+        "Do you still have a login page?",
+        "How can we signup as a reseller?",
+        "can you setup online access for ",
+        "Good morning, I was wondering if I could please ask for assistance in creating a DiGiCOR website account.",
+        "how does the process of financing work ?"
+
       ],
       "responses": [
         "You might find the answers to your query at our FAQ page, under the section 'Accounts and Credits' <a href = 'https://digicor.com.au/faq'> Frequently Asked Questions </a>. <br> Alternatively, you can connect with an agent through this chat."
@@ -278,7 +300,16 @@
         "Do you ship local delivery companies?",
         "delivery",
         "when will I get my hardware",
-        "when will my server arrive"
+        "when will my server arrive",
+        "What's the turnaround time to receive them?",
+        " may I know how long would delivery take if I were to order?",
+        "rough eta (timeframe weeks or months)",
+        "Hi there, I am wondering if it's possible to pick up our server directly from DiGiCOR.",
+        "what is the lead time please",
+        "can you tell me the lead time regards delivery?",
+        "how long does it take to deliver the server?",
+        "how long does it take to deliver the server?"
+
 
       ],
       "responses": [
@@ -313,7 +344,18 @@
         "RS number",
         "WS number",
         "RP number",
-        "WP number"
+        "WP number",
+        "BMC card has failed, believe the SN is SMC0CC47A1B1B4E can I get this replaced under warranty?",
+        "We bought a server from you a while ago, and we've had a powersupply go faulty",
+        "I was just wondering what the warranty time limit is on PSU",
+        "Where is your support page?",
+        "i need to check who to contact for parts replacement",
+        "Hi, just wondering if I could confirm if our device is still covered under warranty?",
+        "Hi there, I am wondering if RMA replacement always coming after we return the faulty ones.",
+        "I'm wondering if it's only just out of warranty if there's any chance at all we can get it covered? ",
+        "I wanted to know more about your NBD warranty",
+        "How does NBD work in terms of parts and system down time",
+        "Hi, I have to return products purchased from Digicor"
       ],
       "responses": [
         "It looks like your query is related to RMA support. The following link might help answer your query <a href = 'https://digicor.com.au/rma-support'> RMA Support FAQ</a>. <br> Alternatively, you can connect with an agent through this chat."
@@ -327,7 +369,8 @@
         "when will you call me back",
         "When will you reply",
         "How long does DiGiCOR take to reply? ",
-        "When will DiGiCOR respond to my query"
+        "When will DiGiCOR respond to my query",
+        "I sent an email last week regarding a quote for some items, but never received any confirmation that someone has been processing my request."
       ],
       "responses": [
         "It looks like your query is related to RMA support. The following link might help answer your query <a href = 'https://digicor.com.au/faq/question/17/How-long-does-DiGiCOR-take-to-reply?'> How long does DiGiCOR take to reply</a>. <br> Alternatively, you can connect with an agent through this chat."
