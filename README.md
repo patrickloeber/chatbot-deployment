@@ -42,3 +42,7 @@ Assistance:
 
             IBM Support - $250/month
             OutThought Consultant - $1800/day
+
+Links to IBM Assistant Docs that would be useful:
+https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-welcome-new-assistant
+Walks you through step by step on how to make and deploy the assistant
