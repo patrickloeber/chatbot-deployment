@@ -11,6 +11,7 @@ Objective: We are planning to deploy a new chatbot for our FAQ Page.
            and we require the extraction of the aforementioned key phrases and entity recognition in order to amalgamate them into the required link structure.
            
 Project Chatbot: https://docs.google.com/spreadsheets/d/17QFaHgvD6dlTbNiOdj4rlE-T3I7H9fXXHaNJVZ4-A0Y/edit?usp=sharing
+
 Research: https://docs.google.com/document/d/11yLE81vcrzVn15s2jeLP5cnzcMiyKryaz84i_KLOtL4/edit?usp=sharing
 
 Various approaches to DiGiCOR chatbot prototypes, ranked from best (1) to worst (7):
