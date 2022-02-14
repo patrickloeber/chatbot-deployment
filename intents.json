@@ -16,12 +16,7 @@
         "Hi there",
         "Good morning",
         "Good evening",
-        "Good afternoon",
-        "Hi How areyou?",
-        "Hi How are you?",
-        "Ahoy",
-        "Heloo",
-        "gday digicore"
+        "Good afternoon"
       ],
       "responses": [
         "Hey, how can I be of assistance?",
@@ -31,10 +26,19 @@
         "Welcome to DiGiCOR. How may I be of assistance?"
       ]
     },
-   
+    {
+      "tag": "identity",
+      "patterns": ["What are you?", "Who are you?", "What is your name?"],
+      "responses": [
+        "I am a chatbot. If you wish to speak to a live agent, please say 'live agent'",
+        "I am DiGiCOR's chatbot. I can help you with simple queries",
+        "I am DiGiCOR's chatbot. If you wish to speak to a live agent, please say 'Live agent'",
+        "I am a chatbot. I can help you with simple queries"
+      ]
+    },
     {
       "tag": "about_digicor",
-      "patterns": ["tell me about DiGiCOR", "What is DiGiCOR do", "about digicor", "can you tell me about your business"],
+      "patterns": ["tell me about DiGiCOR", "What does DiGiCOR do", "about digicor"],
       "responses": [
         "DiGiCOR was founded in 1997 with the goal of becoming a major player in the Australian and New Zealand niche ICT Infrastructure market. <br>  Our focus is in providing server, data storage, workstation, networking, edge computing, and IoT solutions. From designing IT infrastructure to deployment of the solution, we cover the whole journey for our customers. <br> See our range of features and partners in our <a href = 'https://digicor.com.au/about-us'> About Us </a>. "
         
@@ -42,65 +46,48 @@
     },
     {
       "tag": "digicor_applicator",
-      "comment": "Use this incase they literally type digicor applicator" ,
-      "patterns": ["DiGiCOR Applicator"],
+      "patterns": ["What does DiGiCOR sell?", "does DiGiCOR have server", "What hardware does DiGiCOR have", "Do you have", "Does DiGiCOR have stock"],
       "responses": [
         "DiGiCOR offers a range of solutions for organisations of all sizes, from local and affordable services to cloud computing solutions, DiGiCOR can provide you with solutions to your IT challenges <br> Visit <a href = 'https://digicor.com.au/advanced-search'> DiGiCOR Applicator </a> to view different configurations <br>"
         
       ]
     },
 
-   
     {
-      "tag": "goodbye",
-      "comment": "Thanks and goodbye are the same in the context of a bot that response to queries",
-      "patterns": ["Bye", "See you later", "Goodbye", "thanks for you help", "that's all for today","Thanks", "Thank you", "That's helpful", "Thanks a lot!", "thank you for your assistance", "Thank you so much for the information", "have a nice day" ],
+      "tag": "digicor_configurator_help",
+      "patterns": ["How do I use DiGiCOR's configurator?", "How to use DiGiCOR configurator", " Global Search", "learn how to use DiGiCOR's configurator"],
       "responses": [
-        "Before you go, would you kindly fill out this survey?"
+        "This might help you in using the DiGiiCOR's configurator <br> Visit <a href = 'https://digicor.com.au/faq/question/18/How-do-I-use-DiGiCOR%E2%80%99s-configurator?'> DiGiCOR Configurator help </a>  <br> Alternatively, reach out to one of our live agents, and we would be  happy to help"
+        
       ]
     },
-    
     {
-      "tag": "services",
-      "comment": "This is a catch all for services that DiGiCOR offers",
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "thanks for you help", "that's all for today"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!", "thank you for your assistance"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
       "patterns": [
         "Which items do you have?",
         "What kinds of items are there?",
-        "Do you sell PC?",
+        "What does?",
         "What do you offer?",
         "What can you ?",
-        "What do you sell?",
-        "what is your company's core service?",
-        "what does your company do?",
-        "Hi just want to ask about your 5G solution",
-        "I saw on your website you have O-RAN 5G solution",
-        "I was wondering if I could pay you for your services to help me get it running",
-        "I learned that you're doing well in IT hardware and server solution",
-        "Hello, do you offer server leasing?",
-        "Hello, Do you also host servers?",
-        "Hello, Do you also host servers?",
-        "Hey do you service epyc hardware",
-        "Hi, do you sell ex-datacenter or refurbished servers?",
-        "you sell server",
-        "I'm looking for some ICT solutions",
-        "Do you perform hardware integration services?",
-        "May I know if you are a server maker company?",
-        "Do you sell server hardware's, like AMD CPU, Graphic cards.",
-        "what are the solutions do you provide for backup and recovery"
-
+        "What do you sell?"
       ],
       "responses": [
         "We provide a wide range of industry-leading ICT infrastructure and software solutions, to help meet the demands of different industries and enterprises",
         "We provide various tech-consulting services and ICT infrastructure to businesses in need of tech support "
-      ]
-    },
-
-    {
-      "tag": "digicor_configurator_help",
-      "patterns": ["How do I use DiGiCOR's configurator?", "How to use DiGiCOR configurator", " Global Search", "learn how to use DiGiCOR's configurator", "online configurator"],
-      "responses": [
-        "This might help you in using the DiGiiCOR's configurator <br> Visit <a href = 'https://digicor.com.au/faq/question/18/How-do-I-use-DiGiCOR%E2%80%99s-configurator?'> DiGiCOR Configurator help </a>  <br> Alternatively, reach out to one of our live agents, and we would be  happy to help"
-        
       ]
     },
     {
@@ -125,6 +112,7 @@
         "Where are you guys located ?",
         "I'm looking to contact someone in Melbourne ",
         "Hi there, I am wondering if I could get information about"
+
       ],
       "responses": [
         "You can contact our sales team at <br> 1-300-192-308 <br> our support at <br> 788-886 <br> Individual branches contact details can be found at <a href = 'https://digicor.com.au/contact-us'> Contact Us </a>. <br> Alternatively, you can connect with an agent through this chat."
@@ -167,8 +155,7 @@
         "I need a human",
         "can I speak to an agent",
         "I need to clarify",
-        "agent",
-        "quote"
+        "agent"
       ],
       "responses": [
         "Hi, I am a live agent, how may I assist you"
@@ -375,8 +362,20 @@
       "responses": [
         "It looks like your query is related to RMA support. The following link might help answer your query <a href = 'https://digicor.com.au/faq/question/17/How-long-does-DiGiCOR-take-to-reply?'> How long does DiGiCOR take to reply</a>. <br> Alternatively, you can connect with an agent through this chat."
       ]
-    }
+    },
 
-   
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? <br> He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? <br> Bison.",
+        "<a href = 'https://google.com'> Google </a>"
+      ]
+    }
   ]
 }
