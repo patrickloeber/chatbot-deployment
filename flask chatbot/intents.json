@@ -1,0 +1,381 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Howdy",
+        "Greetings",
+        "I need help",
+        "Can you help",
+        "Good day",
+        "Hi there",
+        "Good morning",
+        "Good evening",
+        "Good afternoon"
+      ],
+      "responses": [
+        "Hey, how can I be of assistance?",
+        "Hello, thanks for visiting.",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Welcome to DiGiCOR. How may I be of assistance?"
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": ["What are you?", "Who are you?", "What is your name?"],
+      "responses": [
+        "I am a chatbot. If you wish to speak to a live agent, please say 'live agent'",
+        "I am DiGiCOR's chatbot. I can help you with simple queries",
+        "I am DiGiCOR's chatbot. If you wish to speak to a live agent, please say 'Live agent'",
+        "I am a chatbot. I can help you with simple queries"
+      ]
+    },
+    {
+      "tag": "about_digicor",
+      "patterns": ["tell me about DiGiCOR", "What does DiGiCOR do", "about digicor"],
+      "responses": [
+        "DiGiCOR was founded in 1997 with the goal of becoming a major player in the Australian and New Zealand niche ICT Infrastructure market. <br>  Our focus is in providing server, data storage, workstation, networking, edge computing, and IoT solutions. From designing IT infrastructure to deployment of the solution, we cover the whole journey for our customers. <br> See our range of features and partners in our <a href = 'https://digicor.com.au/about-us'> About Us </a>. "
+        
+      ]
+    },
+    {
+      "tag": "digicor_applicator",
+      "patterns": ["What does DiGiCOR sell?", "does DiGiCOR have server", "What hardware does DiGiCOR have", "Do you have", "Does DiGiCOR have stock"],
+      "responses": [
+        "DiGiCOR offers a range of solutions for organisations of all sizes, from local and affordable services to cloud computing solutions, DiGiCOR can provide you with solutions to your IT challenges <br> Visit <a href = 'https://digicor.com.au/advanced-search'> DiGiCOR Applicator </a> to view different configurations <br>"
+        
+      ]
+    },
+
+    {
+      "tag": "digicor_configurator_help",
+      "patterns": ["How do I use DiGiCOR's configurator?", "How to use DiGiCOR configurator", " Global Search", "learn how to use DiGiCOR's configurator"],
+      "responses": [
+        "This might help you in using the DiGiiCOR's configurator <br> Visit <a href = 'https://digicor.com.au/faq/question/18/How-do-I-use-DiGiCOR%E2%80%99s-configurator?'> DiGiCOR Configurator help </a>  <br> Alternatively, reach out to one of our live agents, and we would be  happy to help"
+        
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "thanks for you help", "that's all for today"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!", "thank you for your assistance"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What does?",
+        "What do you offer?",
+        "What can you ?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We provide a wide range of industry-leading ICT infrastructure and software solutions, to help meet the demands of different industries and enterprises",
+        "We provide various tech-consulting services and ICT infrastructure to businesses in need of tech support "
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact you",
+        "how do I contact DiGiCOR",
+        "Do you have email",
+        "What is DiGiCOR email",
+        "what is DiGiCOR contact details",
+        "how do I contact the melbourne store",
+        "how can I call the NSW branch",
+        "How can I contact your technical support",
+        "contact technical support",
+        "tech support",
+        "Is there any contact details",
+        "can i get muhamad's digcor email address please",
+        "I dont have an RMA, I need tech support",
+        "can you tell me the contact point ?",
+        "Hi, what is the best contact email address for support?",
+        "Could you please provide me an email address were I can send information from my company",
+        "Where are you guys located ?",
+        "I'm looking to contact someone in Melbourne ",
+        "Hi there, I am wondering if I could get information about"
+
+      ],
+      "responses": [
+        "You can contact our sales team at <br> 1-300-192-308 <br> our support at <br> 788-886 <br> Individual branches contact details can be found at <a href = 'https://digicor.com.au/contact-us'> Contact Us </a>. <br> Alternatively, you can connect with an agent through this chat."
+      ]
+    },
+    {
+      "tag": "vmware_FAQ",
+      "patterns": [
+        "VMware Software",
+        "What is VMware",
+        "how does VMware work?",
+        "What are VMware HCI Kits?",
+        "What are the benefits of VMware?",
+        "Differences between Virtualization and Cloud Computing?",
+        "What is the difference between VMWare and VirtualBox?",
+        "What is a VMware Workstation?",
+        "VMWare Consultation",
+        "VMware vSAN Solutions",
+        "VMWare vSPHERE Solutions",
+        "tell me about vmware",
+        "vmware",
+        "The ASUS-ESC4000A-E10 - does it support GPU carving in BIOS with VMware vSphere ?",
+        "I need something VMware certified - do you guys have anything like that?",
+        "is that server supports VMware",
+        "can u pls confirm VMware support for this "
+      ],
+      "responses": [
+        "You can find out more about our partner VMWare, and get a free VMWare Consultation at our dedicated VMWare page <a href = 'https://digicor.com.au/partner/vmware'> VMWare </a>. <br> Alternatively, you can connect with an agent through this chat."
+      ]
+    },
+
+    {
+      
+      "tag": "live_agent",
+      "comment": "live_agent is a placeholder. We need to figure away to hand over to a live agent",
+      "patterns": [
+        "can I speak with a staff member",
+        "staff",
+        "human",
+        "I need a human",
+        "can I speak to an agent",
+        "I need to clarify",
+        "agent"
+      ],
+      "responses": [
+        "Hi, I am a live agent, how may I assist you"
+      ]
+    },
+
+
+
+    {
+      "tag": "intel_FAQ",
+      "patterns": [
+        "questions about Intel",
+        "Where to buy Intel Server Solutions in Australia?",
+        "How do I configure an Intel server? ",
+        "Who uses Intel servers? ",
+        "Why choose Intel?",
+        "What is an Intel server? ",
+        "Where are Intel servers manufactured? ",
+        "Coyote Pass",
+        "intel NUC",
+        "Intel Data Centre Blocks",
+        "DCB",
+        "Intel Servers",
+        "Intel Hardware",
+        "Intel device",
+        "Intel",
+        "Are you able to do the Intel E-22xx series processors?"
+      ],
+      "responses": [
+        "You can find out more about our partner Intel at our dedicated Intel page <a href = 'https://digicor.com.au/partner/intel'> Intel </a>. <br> Alternatively, you can connect with an agent through this chat."
+      ]
+    },
+
+    {
+      "tag": "supermicro_FAQ",
+      "patterns": [
+        "Supermicro Server",
+        "Supermicro Storage",
+        "Supermicro Workstation",
+        "Supermicro Embeded Server",
+        "Supermicro IoT Server",
+        "Supermicro Internet of Things Server",
+        " What is a Supermicro server? ",
+        " Why choose Supermicro? ",
+        "Where to buy Supermicro in Australia? ",
+        "How do I configure a Supermicro server? ",
+        " Who uses Supermicro servers? ",
+        " Where are Supermicro servers manufactured? ",
+        "solutions with Supermicro",
+        "supermicro",
+        "I understand you sell semimicro servers - what are the prices and specs in australia",
+        "Hi, do you guys sell supermicro products?",
+        "Am I able to find the supermicro products on your website?",
+        "We heard that you are an authorised distributor of Supermicro's in Australia. ",
+        "My team in Australia is looking for Super micro rack rails",
+        "Are you a supermicro reseller ?",
+        "Digicor sells supermicro motherboards?"
+
+      ],
+      "responses": [
+        "You can find out more about our partner Supermicro at our dedicated Supermicro page <a href = 'https://digicor.com.au/partner/supermicro'> Supermicro </a>. <br> Alternatively, you can connect with an agent through this chat."
+      ]
+    },
+
+    {
+      "tag": "account_FAQ",
+      "patterns": [
+        "Where can I find my credit terms? ",
+        "Where can my company find it's credit terms? ",
+        "personal credit terms",
+        "What are DiGiCOR's credit terms?",
+        "How do I create an account on the DiGiCOR website? ",
+        "Creating account on your website",
+        "Register New Account",
+        "credit terms",
+        "we are looking for Wholesale account options",
+        "Do you still have a login page?",
+        "How can we signup as a reseller?",
+        "can you setup online access for ",
+        "Good morning, I was wondering if I could please ask for assistance in creating a DiGiCOR website account.",
+        "how does the process of financing work ?"
+
+      ],
+      "responses": [
+        "You might find the answers to your query at our FAQ page, under the section 'Accounts and Credits' <a href = 'https://digicor.com.au/faq'> Frequently Asked Questions </a>. <br> Alternatively, you can connect with an agent through this chat."
+      ]
+    },
+
+    {
+      "tag": "purchase_FAQ",
+      "patterns": [
+        "Can I cancel my order? ",
+        "cancel my order",
+        "cancel order",
+        "When is my order eligible for payment? ",
+        "when do I have to pay",
+        "when must I pay",
+        "Can I make adjustments to my order? ",
+        "Can I make ammendments to my order? ",
+        "Can I make changes to my order",
+        "Can I modify my order",
+        "order modification",
+        "change order",
+        "ammend order",
+        "purchase",
+        "buy"
+
+      ],
+      "responses": [
+        "You might find the answers to your query at our FAQ page, under the section 'Purchases and Payments' <a href = 'https://digicor.com.au/faq'> Frequently Asked Questions </a>. <br> Alternatively, you can connect with an agent through this chat."
+      ]
+    },
+
+    {
+      "tag": "delivery_FAQ",
+      "patterns": [
+        "How long does delivery take? ",
+        "when do you aim to deliver your orders",
+        "Where can I pickup my purchase? ",
+        "is pickup aviliable?",
+        "is pickup free",
+        "whats the cost of pickup",
+        "What delivery options are there? ",
+        "What delivery companies do you work with",
+        "Do you ship with Australia Post?",
+        "Do you ship with  Courier Please?",
+        "Do you ship with Toll?",
+        "Do you ship with FedEx?",
+        "Do you ship local delivery companies?",
+        "delivery",
+        "when will I get my hardware",
+        "when will my server arrive",
+        "What's the turnaround time to receive them?",
+        " may I know how long would delivery take if I were to order?",
+        "rough eta (timeframe weeks or months)",
+        "Hi there, I am wondering if it's possible to pick up our server directly from DiGiCOR.",
+        "what is the lead time please",
+        "can you tell me the lead time regards delivery?",
+        "how long does it take to deliver the server?",
+        "how long does it take to deliver the server?"
+
+
+      ],
+      "responses": [
+        "You might find the answers to your query at our FAQ page, under the section 'Delivery and Pickup Enquiries' <a href = 'https://digicor.com.au/faq'> Frequently Asked Questions </a>. <br> Alternatively, you can connect with an agent through this chat."
+      ]
+    },
+
+    {
+      "tag": "warranty_FAQ",
+      "patterns": [
+        "hi, I would like to ask about server warranty status and part avilibility in melborune",
+        "We biught a server for our hypervisor and it's power supply failed",
+        "rm number",
+        "What repair options do you have",
+        "out of warranty",
+        "my device is broken",
+        "how can I fix my device",
+        "can DiGiCOR fix my hardware",
+        "How Should I Contact The DiGiCOR RMA Department?",
+        "My System Is Out Of Warranty, What Repair Options Do You Have?",
+        "How Long Will The RMA Process Take?",
+        "Where Can I Find The Warranty Sticker On My System?",
+        "Where Do I Return My System? ",
+        "replace hardware",
+        "How Do I Order Any Available Parts For My System?",
+        "I Need An Urgent Replacement For My System, What Options Are Available? ",
+        "I need a replacement server",
+        "RM number",
+        "WM number",
+        "RB number",
+        "WB number",
+        "RS number",
+        "WS number",
+        "RP number",
+        "WP number",
+        "BMC card has failed, believe the SN is SMC0CC47A1B1B4E can I get this replaced under warranty?",
+        "We bought a server from you a while ago, and we've had a powersupply go faulty",
+        "I was just wondering what the warranty time limit is on PSU",
+        "Where is your support page?",
+        "i need to check who to contact for parts replacement",
+        "Hi, just wondering if I could confirm if our device is still covered under warranty?",
+        "Hi there, I am wondering if RMA replacement always coming after we return the faulty ones.",
+        "I'm wondering if it's only just out of warranty if there's any chance at all we can get it covered? ",
+        "I wanted to know more about your NBD warranty",
+        "How does NBD work in terms of parts and system down time",
+        "Hi, I have to return products purchased from Digicor"
+      ],
+      "responses": [
+        "It looks like your query is related to RMA support. The following link might help answer your query <a href = 'https://digicor.com.au/rma-support'> RMA Support FAQ</a>. <br> Alternatively, you can connect with an agent through this chat."
+      ]
+    },
+
+    {
+      "tag": "reply_speed_FAQ",
+      "patterns": [
+        "When will I hear back from you",
+        "when will you call me back",
+        "When will you reply",
+        "How long does DiGiCOR take to reply? ",
+        "When will DiGiCOR respond to my query",
+        "I sent an email last week regarding a quote for some items, but never received any confirmation that someone has been processing my request."
+      ],
+      "responses": [
+        "It looks like your query is related to RMA support. The following link might help answer your query <a href = 'https://digicor.com.au/faq/question/17/How-long-does-DiGiCOR-take-to-reply?'> How long does DiGiCOR take to reply</a>. <br> Alternatively, you can connect with an agent through this chat."
+      ]
+    },
+
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? <br> He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? <br> Bison.",
+        "<a href = 'https://google.com'> Google </a>"
+      ]
+    }
+  ]
+}

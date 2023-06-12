@@ -1,52 +1,48 @@
-# Chatbot Deployment with Flask and JavaScript
+# Chatbot Training and Deployment
 
-In this tutorial we deploy the chatbot I created in [this](https://github.com/python-engineer/pytorch-chatbot) tutorial with Flask and JavaScript.
+Objective: 
 
-This gives 2 deployment options:
-- Deploy within Flask app with jinja2 template
-- Serve only the Flask prediction API. The used html and javascript files can be included in any Frontend application (with only a slight modification) and can run completely separate from the Flask App then.
+           We are planning to deploy a new chatbot for our FAQ Page. 
+           The chatbot should be able to identify certain key phrasings from user input, 
+           such as the make and models of a specific product on our site, and often, 
+           multiple products names will appear in a single input. 
+           Our advanced search function currently yields the relevant results according to user queries. 
+           We are looking to implement a chatbot that can aid user navigation via the chatbot by providing dynamic links to our advanced search page
+           (comprising a list of filtered/relevant products according to user queries). 
+           We have a specific format for our dynamic link generation but in order to construct it, 
+           and we require the extraction of the aforementioned key phrases and entity recognition in order to amalgamate them into the required link structure.
+           
+Project Chatbot: https://docs.google.com/spreadsheets/d/17QFaHgvD6dlTbNiOdj4rlE-T3I7H9fXXHaNJVZ4-A0Y/edit?usp=sharing
 
-## Initial Setup:
-This repo currently contains the starter files.
+Research: https://docs.google.com/document/d/11yLE81vcrzVn15s2jeLP5cnzcMiyKryaz84i_KLOtL4/edit?usp=sharing
 
-Clone repo and create a virtual environment
-```
-$ git clone https://github.com/python-engineer/chatbot-deployment.git
-$ cd chatbot-deployment
-$ python3 -m venv venv
-$ . venv/bin/activate
-```
-Install dependencies
-```
-$ (venv) pip install Flask torch torchvision nltk
-```
-Install nltk package
-```
-$ (venv) python
->>> import nltk
->>> nltk.download('punkt')
-```
-Modify `intents.json` with different intents and responses for your Chatbot
+Various approaches to DiGiCOR chatbot prototypes, ranked from best (1) to worst (7):
+1. IBM Watson Assistant and Discovery
+2. Amazon Lex
+3. Wit.ai with Messenger
+4. Alterra.ai with Messenger
+5. DialogFlow with Google AutoML
+6. Microsoft Azure Cognitive Services for Language
+7. Python Libraries (NLTK/ Spacy)
 
-Run
-```
-$ (venv) python train.py
-```
-This will dump data.pth file. And then run
-the following command to test it in the console.
-```
-$ (venv) python chat.py
-```
+Conclusion: 
 
-Now for deployment follow my tutorial to implement `app.py` and `app.js`.
+            Based on assessments of key features/functionality, IBM Watson Assistant (Plus) is the chosen approach as approved by Roham, Richard and Cathy.
+            Begin by setting up the IBM Cloud Account (requires a credit/debit card, ask Cathy/Roham for it), there should be no immediate charge. 
+            Start training the chatbot intents and utterances using IBM Watson Assistant Lite. Request for approval for Plus Subscription when required.
+            Live Agent Handover, Dynamic Link Generation and FAQ training can all be handled by IBM Watson Assistant (Provides entity recognition and key-phrase extraction).
+            Watson Discovery (optional extension) is a powerful search engine that performs web scraping for the site to yield potential relevant responses to unclear user input.
+            
+Guidelines: 
 
-## Watch the Tutorial
-[![Alt text](https://img.youtube.com/vi/a37BL0stIuM/hqdefault.jpg)](https://youtu.be/a37BL0stIuM)  
-[https://youtu.be/a37BL0stIuM](https://youtu.be/a37BL0stIuM)
+            Develop your roadmap as required. 
+            Training and Testing should take 2- 3 weeks.
+            
+Assistance: 
 
-## Note
-In the video we implement the first approach using jinja2 templates within our Flask app. Only slight modifications are needed to run the frontend separately. I put the final frontend code for a standalone frontend application in the [standalone-frontend](/standalone-frontend) folder.
+            IBM Support - $250/month
+            OutThought Consultant - $1800/day
 
-## Credits:
-This repo was used for the frontend code:
-https://github.com/hitchcliff/front-end-chatjs
+Links to IBM Assistant Docs that would be useful:
+https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-welcome-new-assistant
+Walks you through step by step on how to make and deploy the assistant
