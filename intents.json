@@ -1,84 +1,147 @@
 {
-  "intents": [
-    {
-      "tag": "greeting",
-      "patterns": [
-        "Hi",
-        "Hey",
-        "How are you",
-        "Is anyone there?",
-        "Hello",
-        "Good day"
-      ],
-      "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
-      ]
-    },
-    {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
-      "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
-      ]
-    },
-    {
-      "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
-      "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
-      ],
-      "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
-    },
-    {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
-      "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
-    },
-    {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
-    },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
-      ]
-    }
-  ]
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "Hi there"
+            ],
+            "responses": [
+                "Hello thanks for checking in",
+                "Hi there, how can i help you",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "good bye",
+                "see you later"
+            ],
+            "responses": [
+                "have a nice time, welcome back again",
+                "bye bye"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "okay",
+                "Thank you",
+                "thankyou",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me",
+                "wow",
+                "great"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "you're welcome",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                "Sorry, I didn't understand you",
+                "Please give me more info",
+                "Not sure I understand that"
+            ]
+        },
+        {
+            "tag": "name1",
+            "patterns": [
+                "what's your name?",
+                "who are you?"
+            ],
+            "responses": [
+                "I'm just an SDF virtual agent. I only exist in the world of DoFPD",
+                "I'm a SDF virtual chat agent"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "my name is ",
+                "I'm ",
+                "I am"
+            ],
+            "responses": [
+                "Oooh great to meet you ! How may I assist you ",
+                "Oh, I'll keep that in mind"
+            ]
+        },
+        {
+            "tag": "charge",
+            "patterns": [
+                "Whether charge lower than the SDF charge be ceded?",
+                "what is the charge of SDF, lower than the SDF charge be ceded?",
+                "May I know the Charge",
+                "may i know the charge"
+            ],
+            "responses": [
+                "Oh Yes, it can be ceded",
+                "It is ceded",
+                "it can be ceded"
+            ]
+        },
+        {
+            "tag": "nodal",
+            "patterns": [
+                "which nodal agency for cooperative factories?",
+                "Who will be the nodal agency for processing NOC request?",
+                "can you help me, which nodal agency for co-operative sugar factories for processing NOC requests?",
+                "who will process NOC request for co-operative sugar factories?"
+            ],
+            "responses": [
+                "IFCI for private sugar factories and NCDC for co-operative sugar factories."
+            ]
+        },
+        {
+            "tag": "private",
+            "patterns": [
+                "Which is the nodal agency for private sugar factories for processing NOC requests?",
+                "private nodal agency",
+                "nodal agency for private sugar factories",
+                "Please tell me the nodal agency for private factories",
+                "Will you help me as a prive sugar factory ownere, which agency will facilitate in this?",
+                "private agency",
+                "private organization",
+                "private organisation"
+            ],
+            "responses": [
+                "Yes, here is the link https://www.ifciltd.com/",
+                "yes IFCL",
+                "Hey! you can visit https://www.ifciltd.com/",
+                "I am sure it's Industrial Finance Corporation of India (IFCI)"
+            ]
+        },
+        {
+            "tag": "loan application ",
+            "patterns": [
+                "SDF Loan",
+                "sdf loan",
+                "loan link",
+                "loan form"
+            ],
+            "responses": [
+                "https://sdfportal.in/Login",
+                "https://dfpd.gov.in/SDF-Main.htm"
+            ]
+            
+        }
+    ]
 }
