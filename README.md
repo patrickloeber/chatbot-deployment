@@ -1,4 +1,4 @@
-# Chatbot Deployment with Flask and JavaScript
+# Chatbot Deployment with Python and JavaScript
 
 Clone repo and create a virtual environment
 ```
