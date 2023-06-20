@@ -56,8 +56,6 @@ class Chatbox {
           })
           .then(r => r.json())
           .then(r => {
-            console.log(typeof r, r);
-
             let msg2 = { name: "Sam", message: r.answer };
             this.messages.push(msg2);
             this.updateChatText(chatbox)
